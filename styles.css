@@ -1,0 +1,41 @@
+body{
+    background-image: url(images/pexels-pixabay-76969.jpg);
+    
+}
+
+#titleTag, label{
+    color: white;
+}
+
+#weatherAll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: .8;
+    flex-wrap: wrap;
+    
+}
+
+#forecastResults{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#weatherResults{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    align-content: center;
+    border-radius: 10px;
+    height: fit-content;
+    
+}
+h3{
+    font-size: 90%;
+}
+img{
+    size: bigger;
+}
